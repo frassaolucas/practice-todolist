@@ -1,6 +1,7 @@
 import { Icon } from '@/components/icon';
 import { Checkbox } from '@/components/checkbox';
 
+import { useToDoList } from './ToDoList.hooks';
 import {
   Container,
   Content,
@@ -16,7 +17,6 @@ import {
 
 import ToDoLogo from '@/assets/images/logo-todo.svg';
 import ClipboardImage from '@/assets/images/clipboard.png';
-import { useToDoList } from './ToDoList.hooks';
 
 export const ToDoList: React.FC = () => {
   const {
