@@ -11,7 +11,7 @@ export const CheckboxContainer = styled.input.attrs({ type: 'checkbox' })`
   width: 1rem;
   height: 1rem;
 
-  padding: 0.5rem;
+  margin: 0.25rem 0;
 
   border: 2px solid var(--color-blue);
   border-radius: 50%;

@@ -1,3 +1,3 @@
-import { HTMLAttributes } from 'react';
+import { HTMLAttributes, InputHTMLAttributes } from 'react';
 
-export type CheckboxProps = Omit<HTMLAttributes<HTMLInputElement>, 'type'>;
+export type CheckboxProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'type'>;
